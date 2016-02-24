@@ -1,0 +1,114 @@
+/*===================
+  GENERAL STYLING
+===================*/
+
+body {
+width: 100%;
+margin: 0 0;
+background-color: white;
+}
+
+header {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+section h1 {
+  font-size: 150px;
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  letter-spacing: -0.5px;
+}
+
+article {
+  background-color: #fff;
+  width: 100%;
+  margin: auto;
+  float: left;
+  border-right: 1px solid white;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+footer {
+  height: 300px;
+  background-color: black;
+  clear: both;
+}
+
+img {
+  min-width: 50%;
+}
+
+
+/*===================
+      #IDs
+===================*/
+
+
+#main {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+
+/*===================
+      .CLASSES
+===================*/
+
+.information {
+  width: 50%;
+  text-align: left;
+
+}
+
+.article-info p {
+  padding: 10px;
+  font-family: 'Special Elite', cursive;
+  font-size: 22px;
+  line-height: 1.75;
+  letter-spacing: 2px;
+
+}
+
+.slide {
+transition: 0.5s ease-out;
+}
+
+.brand-logo {
+  font-family: 'Permanent Marker', cursive;
+  padding-left: 15px !important;
+}
+
+.super-header {
+  font-size: 56px;
+  padding:20px;
+  margin: auto;
+  width: 100%;
+  color: #000;
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 4px;
+}
+
+.main-copy {
+  z-index: 9999;
+  font-size: 150px;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 150px;
+  opacity: .9;
+  padding-right: 40px;
+  text-align: right;
+}
